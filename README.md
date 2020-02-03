@@ -1,4 +1,1 @@
-# Hello-World
-Basics
-
-hi basics of git.
+# Hello-World Git
