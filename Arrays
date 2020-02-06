@@ -1,0 +1,16 @@
+const myArray = [1,2,34];
+const anotherArray2 = myAray.map((item) => item+1);
+console.log(myArray);//original is unchanged
+console.log(myArray2);//newly created from map
+
+// use push
+
+anotherArray2.push(7);// addes in the end
+console.log(myArray2);
+anotherArray2.pop();// removes from the end
+console.log(myArray2);
+
+//use filter
+
+const myFilteredArray = anotherArray2.filter(item => item > 3):// if its true, it removes items less than 3
+console.log(myFilteredArray);
